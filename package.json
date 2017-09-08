@@ -19,7 +19,9 @@
   "rnpm": {
     "ios": {
       "project": "cocoa/BugsnagReactNative.xcodeproj",
-      "sharedLibraries": ["libz"]
+      "sharedLibraries": [
+        "libz"
+      ]
     },
     "android": {
       "packageInstance": "BugsnagReactNative.getPackage()",
